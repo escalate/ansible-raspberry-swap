@@ -28,7 +28,7 @@
       ansible.builtin.command:
         cmd: dphys-swapfile swapon
       changed_when: false
-  when: swap_enabled == true
+  when: swap_enabled
 
 - name: Disable swap
   block:
@@ -52,4 +52,4 @@
       ansible.builtin.apt:
         name: dphys-swapfile
         state: absent
-  when: swap_enabled == false
+  when: not swap_enabled
