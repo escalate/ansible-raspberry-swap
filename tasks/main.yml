@@ -1,4 +1,5 @@
 - name: Enable swap
+  when: swap_enabled
   block:
     - name: Install package
       ansible.builtin.apt:
@@ -28,9 +29,9 @@
       ansible.builtin.command:
         cmd: dphys-swapfile swapon
       changed_when: false
-  when: swap_enabled
 
 - name: Disable swap
+  when: not swap_enabled
   block:
     - name: Deactivate swap
       ansible.builtin.command:
@@ -52,4 +53,3 @@
       ansible.builtin.apt:
         name: dphys-swapfile
         state: absent
-  when: not swap_enabled
