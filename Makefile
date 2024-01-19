@@ -35,12 +35,3 @@ verify:
 .PHONY: destroy
 destroy:
 	molecule destroy
-
-.PHONY: version
-version:
-	ansible --version
-	ansible-lint --version
-	ec --version
-	flake8 --version
-	molecule --version
-	yamllint --version
