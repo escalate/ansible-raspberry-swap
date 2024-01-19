@@ -1,4 +1,4 @@
-[![Molecule](https://github.com/escalate/ansible-raspberry-swap/actions/workflows/molecule.yml/badge.svg?branch=master&event=push)](https://github.com/escalate/ansible-raspberry-swap/actions/workflows/molecule.yml)
+[![Test](https://github.com/escalate/ansible-raspberry-swap/actions/workflows/test.yml/badge.svg?branch=master&event=push)](https://github.com/escalate/ansible-raspberry-swap/actions/workflows/test.yml)
 
 # Ansible Role: Raspberry - Swap
 
