@@ -2,7 +2,7 @@
 
 # Ansible Role: Raspberry - Swap
 
-An Ansible role that manages [swap](https://wiki.debian.org/Swap) with [dphys-swapfile](http://neil.franklin.ch/Projects/dphys-swapfile/) on Raspberry Pi OS (Debian Bullseye & Bookworm).
+An Ansible role that manages [swap](https://wiki.debian.org/Swap) with [dphys-swapfile](http://neil.franklin.ch/Projects/dphys-swapfile/) on Raspberry Pi OS (Debian Bookworm).
 
 ## Role Variables
 
@@ -15,7 +15,7 @@ This role relies on the following dependencies:
 * Roles: None
 * Collections: [requirements.yml](https://github.com/escalate/ansible-raspberry-swap/blob/master/requirements.yml)
 
-## Install
+## Installation
 
 ```
 $ ansible-galaxy role install escalate.swap
