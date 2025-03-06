@@ -16,7 +16,7 @@
         no_extra_spaces: true
         owner: root
         group: root
-        mode: 0644
+        mode: "0644"
       loop: "{{ swap_config | dict2items }}"
 
     - name: Create swap file
