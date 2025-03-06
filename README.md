@@ -12,8 +12,8 @@ Please see [defaults/main.yml](https://github.com/escalate/ansible-raspberry-swa
 
 This role relies on the following dependencies:
 
-* Roles: None
-* Collections: [requirements.yml](https://github.com/escalate/ansible-raspberry-swap/blob/master/requirements.yml)
+- Roles: None
+- Collections: [requirements.yml](https://github.com/escalate/ansible-raspberry-swap/blob/master/requirements.yml)
 
 ## Installation
 
